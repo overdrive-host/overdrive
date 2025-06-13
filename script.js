@@ -24,7 +24,7 @@ function scheduleNextTwinkle() {
     setTimeout(() => {
         triggerBrightTwinkleEffect();
         scheduleNextTwinkle();
-    }, 2000 + Math.random() * 5000);
+        }, 2000 + Math.random() * 5000);
 }
 scheduleNextTwinkle();
 triggerBrightTwinkleEffect();
