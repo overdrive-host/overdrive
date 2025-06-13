@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -130,11 +131,11 @@ body {
 .icon {
     margin: 20px;
     text-align: center;
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .icon:hover {
-    transform: scale(1.2) rotate(10deg);
+    transform: scale(1.1);
 }
 
 .icon a {
